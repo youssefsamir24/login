@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/all.min.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Sign up ||</title>
+</head>
+<body>
+    <div class="title text-center p-3">
+        <h1 class="head">Sign Up Page</h1>
+    </div>
+    <div class="container loginDiv">
+        <div class="nameDiv">
+            <label for="uName" class="form-label">Name :</label>
+            <input class="form-control" type="text" name="userName" id="uName" placeholder="type your name please">
+        </div>
+        <div class="emailDiv">
+            <label for="uEmail" class="form-label cc">Email :</label>
+            <input class="form-control" type="email" name="userEmail" id="uEmail" placeholder="type your email please">
+        </div>
+        <div class="passDiv">
+            <label for="uPass" class="form-label cc">Password :</label>
+            <input class="form-control" type="password" name="password" id="uPass" placeholder="type your password please">
+        </div>
+        <div class="alert bg-info text-center m-3">
+            <p class="lead">Unable to Signup</p>
+
+        </div>
+        
+        <button onclick="signUp()" class="btn btn-outline-dark bou p-2  w-100">Sign Up</button>
+        <div class="routing p-3 text-center">
+            <p>Do you have account? <span class="link"><a href="../index.html">Sign In</a></span></p>
+        </div>
+    </div>
+
+
+
+
+    <script src="../js/bootstrap.bundle.min.js"></script>
+    <script src="../js/main.js"></script>
+</body>
+</html>
