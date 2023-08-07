@@ -4,9 +4,10 @@
 body{
     background-color: #9198e5;
 }
-.head{
+.title{
+    padding: 1.2rem;
     color: antiquewhite;
-    font-family: var(--font);
+    font-family: 'Borel', cursive;
 }
 .loginDiv{
     padding: 1.5rem;
