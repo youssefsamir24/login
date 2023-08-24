@@ -27,5 +27,13 @@ body{
    margin-top: 1rem;
 }
 .alert{
-    display: none;
+    width: 80%;
+    padding: 0;
+    margin: auto;
+}
+#welcome-page{
+    background-image: url('../images/Wave-100s-1366px\ \(2\).svg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }

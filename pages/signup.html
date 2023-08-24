@@ -25,9 +25,12 @@
             <label for="uPass" class="form-label cc">Password :</label>
             <input class="form-control" type="password" name="password" id="uPass" placeholder="type your password please">
         </div>
-        <div class="alert bg-info text-center m-3">
+        <div id="alert" class="alert bg-danger text-center">
             <p class="lead">Unable to Signup</p>
-
+            <p id="email-exist" class="lead"></p>
+        </div>
+        <div id="alert1" class="alert1 bg-success text-center">
+            <p class="lead">successful Signup</p>
         </div>
         
         <button onclick="signUp()" class="btn btn-outline-dark bou p-2  w-100">Sign Up</button>
@@ -40,6 +43,7 @@
 
 
     <script src="../js/bootstrap.bundle.min.js"></script>
+    <script src="../js/jquery.min.js"></script>
     <script src="../js/main.js"></script>
 </body>
 </html>
